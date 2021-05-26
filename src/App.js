@@ -4,7 +4,7 @@ import Book from './components/Book';
 const App = () => {
   return (
     <>
-      <Book title={"Trip to the Moon"} />
+      <Book />
     </>
   );
 }
