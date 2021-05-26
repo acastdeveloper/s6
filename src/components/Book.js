@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default _=> {
+export default ({title})=> {
     return(
-        <>Viatge a la Lluna de la Terra</>
+        <>{title}</>
     );
 }
