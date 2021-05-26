@@ -1,7 +1,20 @@
 import React from 'react';
+import Biblio from './db/Biblio.json'
 
-export default ({title})=> {
+export default () => {
+
+const biblio = Biblio.map(e=>{
+    return (
+        <>
+        <h4>{e.title}</h4>
+        <p>{e.author}</p>
+        </>
+    )
+});
+
     return(
-        <>{title}</>
+        <>
+            {biblio}
+        </>
     );
 }
